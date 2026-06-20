@@ -1,0 +1,3 @@
+add_executable(njr_algebra_groups_test cyclic_test.cpp)
+target_link_libraries(njr_algebra_groups_test PRIVATE njr::algebra_groups GTest::gtest_main)
+gtest_discover_tests(njr_algebra_groups_test TEST_PREFIX "njr_algebra_groups.")
