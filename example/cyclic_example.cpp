@@ -1,8 +1,8 @@
 #include <iostream>
 #include <tuple>
-#include <njr/algebra/groups/groups.hpp>
+#include <algebra/groups/groups.hpp>
 
-using namespace njr::algebra;
+using namespace algebra;
 
 int main() {
     using G = AbelianGroup<DirectSum<C<2>, C<3>>>;

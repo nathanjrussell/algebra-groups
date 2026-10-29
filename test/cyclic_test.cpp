@@ -3,9 +3,9 @@
 #include <stdexcept>
 #include <tuple>
 #include <gtest/gtest.h>
-#include <njr/algebra/groups/groups.hpp>
+#include <algebra/groups/groups.hpp>
 
-using namespace njr::algebra;
+using namespace algebra;
 
 template<class A, class B>
 concept CanAdd = requires(const A& a, const B& b) { a + b; };

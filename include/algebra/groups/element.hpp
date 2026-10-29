@@ -4,9 +4,9 @@
 #include <cstdint>
 #include <initializer_list>
 #include <utility>
-#include <njr/algebra/core/core.hpp>
+#include <algebra/core/core.hpp>
 
-namespace njr::algebra {
+namespace algebra {
 
 template<class Model, class Parent>
 class AdditiveElement : public AdditiveOperators<AdditiveElement<Model, Parent>> {

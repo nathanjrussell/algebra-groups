@@ -1,9 +1,9 @@
 #pragma once
 
 #include <cstdint>
-#include <njr/algebra/groups/element.hpp>
+#include <algebra/groups/element.hpp>
 
-namespace njr::algebra {
+namespace algebra {
 
 namespace detail {
 

@@ -4,10 +4,10 @@
 #include <limits>
 #include <numeric>
 #include <stdexcept>
-#include <njr/algebra/groups/cyclic.hpp>
-#include <njr/algebra/groups/direct_sum.hpp>
+#include <algebra/groups/cyclic.hpp>
+#include <algebra/groups/direct_sum.hpp>
 
-namespace njr::algebra {
+namespace algebra {
 
 template<std::uint32_t A, std::uint32_t B>
 class ChineseRemainderIsomorphism {

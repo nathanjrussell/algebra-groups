@@ -7,9 +7,9 @@
 #include <stdexcept>
 #include <tuple>
 #include <utility>
-#include <njr/algebra/groups/element.hpp>
+#include <algebra/groups/element.hpp>
 
-namespace njr::algebra {
+namespace algebra {
 
 template<class G>
 concept AdditiveAbelianGroupModel = requires { typename G::Element; } &&

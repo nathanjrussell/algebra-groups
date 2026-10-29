@@ -1,2 +1,2 @@
-add_executable(njr_algebra_groups_example cyclic_example.cpp)
-target_link_libraries(njr_algebra_groups_example PRIVATE njr::algebra_groups)
+add_executable(algebra_groups_example cyclic_example.cpp)
+target_link_libraries(algebra_groups_example PRIVATE algebra::groups)
